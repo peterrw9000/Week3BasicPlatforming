@@ -53,8 +53,10 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\PlayerOverall.cs" />
-    <Compile Include="Assets\PlatformEffects.cs" />
+    <Compile Include="Assets\Scripts\PlayerOverall.cs" />
+    <Compile Include="Assets\Scripts\PlatformEffects.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\CoinCollecting.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
